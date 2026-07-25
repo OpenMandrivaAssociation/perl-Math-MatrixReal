@@ -1,15 +1,15 @@
 %define upstream_name    Math-MatrixReal
-%define upstream_version 2.11
+%define upstream_version 2.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Manipulate NxN matrices
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Math/Math-MatrixReal-%{upstream_version}.tar.gz
+Url:		https://github.com/leto/math--matrixreal/tree/master
+Source0:	https://cpan.metacpan.org/authors/id/L/LE/LETO/Math-MatrixReal-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
